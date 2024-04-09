@@ -1,0 +1,30 @@
+:root {
+  /* container */
+  --table-container-radii: 6px;
+  --table-container-border: 1px solid #ced4da;
+  --table-container-background: #ffffff;
+
+  /* row */
+  --table-row-background: #ffffff;
+  --table-row-background-hover: #f8fafc;
+  --table-row-border-bottom: 1px solid #ced4da;
+
+  /* th */
+  --table-th-font-size: 1rem;
+  --table-th-font-weight: 500;
+  --table-th-color: #64748b;
+  --table-th-default-background: #f1f5f9;
+  --table-th-card-background: transparent;
+  --table-th-space: 1rem;
+  --table-th-spacing: 0.5rem;
+  --table-th-chevron-color: #cbd5e1;
+  --table-th-chevron-color-active: #64748b;
+
+  /* td */
+  --table-td-font-size: 1rem;
+  --table-td-font-weight: 400;
+  --table-td-color: #94a3b8;
+  --table-td-default-space: 1rem;
+  --table-td-card-space: 1rem 2rem;
+  --table-td-radii: 6px;
+}

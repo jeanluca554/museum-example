@@ -1,0 +1,82 @@
+{
+  "name": "museu",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "module": "esm",
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev --manual",
+    "start": "remix-serve ./build/index.js",
+    "typecheck": "tsc",
+    "update-packages": "ncu -u && npm i && npm run dev"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
+    "@radix-ui/react-avatar": "^1.0.4",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-menubar": "^1.0.4",
+    "@radix-ui/react-separator": "^1.0.3",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-tabs": "^1.0.4",
+    "@radix-ui/react-toast": "^1.1.5",
+    "@radix-ui/react-toggle": "^1.0.3",
+    "@remix-run/css-bundle": "^2.8.1",
+    "@remix-run/node": "^2.8.1",
+    "@remix-run/react": "^2.8.1",
+    "@remix-run/serve": "^2.8.1",
+    "@remix-run/server-runtime": "^2.8.1",
+    "@tiptap/react": "^2.2.4",
+    "@tiptap/starter-kit": "^2.2.4",
+    "@vanilla-extract/css": "^1.14.2",
+    "@vanilla-extract/recipes": "^0.5.2",
+    "arkyn_components": "^3.0.99",
+    "arkyn_rich_text": "^1.1.20",
+    "arkyn_utils": "^1.0.9",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "isbot": "^5.1.4",
+    "lucide-react": "^0.364.0",
+    "nprogress": "^0.2.0",
+    "react": "^18.2.0",
+    "react-audio-voice-recorder": "^2.2.0",
+    "react-dom": "^18.2.0",
+    "react-h5-audio-player": "^3.9.1",
+    "react-hook-form": "^7.51.2",
+    "react-input-mask": "^2.0.4",
+    "remix-themes": "^1.3.1",
+    "suneditor": "^2.45.1",
+    "suneditor-react": "^3.6.1",
+    "tailwind-merge": "^2.2.2",
+    "tailwindcss-animate": "^1.0.7",
+    "vaul": "^0.9.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.4",
+    "@remix-run/dev": "^2.8.1",
+    "@remix-run/eslint-config": "^2.8.1",
+    "@types/katex": "^0.16.7",
+    "@types/nprogress": "^0.2.3",
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.24",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "postcss": "^8.4.38",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.13",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@remix-run/eslint-config",
+      "@remix-run/eslint-config/node"
+    ]
+  }
+}
