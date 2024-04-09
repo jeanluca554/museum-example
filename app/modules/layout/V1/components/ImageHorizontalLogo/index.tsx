@@ -1,6 +1,6 @@
 import { useTheme } from "remix-themes";
 
-import HorizontalLogo from "~/client/assets/horizontal-logo.svg";
+import HorizontalLogo from "~/client/assets/horizontal-logo-branco.svg";
 import HorizontalLogoDark from "~/client/assets/horizontal-logo-dark.svg";
 
 export default function HorizontalLogoImage() {
@@ -11,14 +11,14 @@ export default function HorizontalLogoImage() {
         <img
           src={HorizontalLogo}
           alt="logo-museum"
-          className="sm:h-10 sm:w-40 md:h-14 md:w-52"
+          className=" w-40 md:h-20 md:w-80 lg:w-96"
         />
       )}
       {theme === "dark" && (
         <img
           src={HorizontalLogoDark}
           alt="logo-museum"
-          className="sm:h-10 sm:w-40 md:h-14 md:w-52"
+          className="w-40 md:h-20 md:w-80 lg:w-96"
         />
       )}
     </>
