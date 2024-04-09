@@ -18,7 +18,7 @@ export default function HorizontalLogoImage() {
         <img
           src={HorizontalLogoDark}
           alt="logo-museum"
-          className="w-40 md:h-20 md:w-80 lg:w-96"
+          className="w-60 md:h-20 md:w-80 lg:w-96"
         />
       )}
     </>
